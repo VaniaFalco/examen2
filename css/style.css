@@ -1,0 +1,114 @@
+body{
+	font-family: 'Catamaran', sans-serif;
+	color: #898989;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+#hero-title {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/Services-Title-Image.jpg");
+	padding: 100px 0px;
+	background-size: cover;
+	background-position:center;
+	text-align: center;
+	color: #FFF;
+	font-weight: 100;
+}
+#icons i{
+	font-size: 128px;
+	color: #e0e0e0;
+	padding-bottom: 30px;
+}
+#icons {
+	color: #898989;
+	text-align: center;
+	padding: 100px 0px;
+}
+.check{
+	color: #53c3c9;
+	font-size: 40px;
+	padding-top: 14px;
+}
+.title {
+	font-size: 20px;
+	color: #282d33;
+	padding-bottom: 20px;
+}
+.negrita {
+	font-weight: 700;
+	color: #282d33;
+}
+#info {
+	padding: 100px 0px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+#info img {
+	padding: 20px 0;
+}
+#features{
+	font-size: 13px;
+}
+.caja1{
+	background-color: #3d4248;
+	padding: 80px 45px;
+	background-size: cover;
+	color: #FFF;
+}
+.caja2 {
+	background-color: #d8d8d8;
+	padding: 80px 45px;
+	background-size: cover;
+	color: #FFF;
+}
+.caja3 {
+	background-color: #f0f0f0;
+	padding: 80px 45px;
+	background-size: cover;
+}
+.btn-light {
+	border-radius: 20px;
+	padding: 8px 15px;
+}
+.btn-dark{
+	border-radius: 20px;
+	padding: 8px 18px;
+}
+footer{
+	background-color: var(--fondo-footer);
+	padding: 40px 0;
+	text-align: left;
+	font-size: 14px;
+	color: #FFF;
+}
+footer li a {
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #3d4248;
+	display: block;
+	border-radius: 100%;
+	color: #bbb;
+	font-size: 14px;
+}
+footer li a:hover {
+	color: #282d33;
+}
+.list-inline {
+	padding: 20px 0px;
+}
+.rights {
+	background-color: #3d4248;
+	text-align: center;
+	color: #bbb;
+	padding: 25px;
+	font-size: 13px;
+}
+
